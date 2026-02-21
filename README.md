@@ -1,21 +1,19 @@
-# Mongoose-Master
+# ⚙️Mongoose-Master (VS Code Extension)
 
-Mongoose-Master is a developer productivity tool that instantly generates Mongoose Schemas and Models from JSON snippets.
+An automation tool for MERN stack developers that generates Mongoose models from JSON snippets instantly.
 
-## Features
+## ⚡Features
+- **Smart Type Detection:** Maps JSON types to Mongoose types (String, Number, Date, Boolean, Array).
+- **Nested Schema Support:** Handles complex, recursive JSON objects.
+- **Production Ready:** Automatically adds `timestamps: true` and `versionKey: false`.
+- **Keyboard Shortcut:** Trigger generation with `Ctrl+Alt+M`.
 
-- **Instant Conversion:** Highlight any JSON and convert it to a Mongoose model.
-- **Smart Mapping:** Automatically detects types like String, Number, Boolean, and Array.
-- **Custom Naming:** Prompts for a model name to ensure clean, reusable code.
+## 📦 Installation
+1. Go to the **Releases** tab in this repository.
+2. Download the `.vsix` file.
+3. In VS Code, open the Extensions tab -> Click `...` -> **Install from VSIX**.
 
-## How to Use
-
-1. Highlight a valid JSON object in your editor.
-2. Use the shortcut `Ctrl+Alt+M`. or 
-   Press `Ctrl+Shift+P` and type **"Generate Mongoose Model"**.
-3. Enter your desired Model name and hit Enter.
-
-## Requirements
-
-- VS Code
-- A project using Mongoose/Node.js
+## 💻 Technical Stack
+- **Language:** TypeScript
+- **Environment:** Node.js
+- **API:** VS Code Extension API
