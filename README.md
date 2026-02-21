@@ -25,9 +25,10 @@ In Full-Stack development, creating models for large or nested JSON datasets is 
 
 ## ⌨️ How to Use
 1. Highlight any valid JSON object in your editor.
-2. Press `Ctrl+Shift+P` and type **"Generate Mongoose Model"** OR use the shortcut `Ctrl+Alt+M`.
-3. Enter the name of your model when prompted (e.g., `User` or `Product`).
-4. A new tab will open on the right with your fully-functional Mongoose model.
+2. Press `Ctrl+Shift+P` and type **"Generate Mongoose Model"**
+   OR use the shortcut `Ctrl+Alt+M`.
+4. Enter the name of your model when prompted (e.g., `User` or `Product`).
+5. A new tab will open on the right with your fully-functional Mongoose model.
 
 ## 💻 Technical Stack
 - **Language:** TypeScript
